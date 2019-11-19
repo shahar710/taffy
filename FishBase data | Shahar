@@ -1,0 +1,7 @@
+FishBase data: Load data from FishBase | Shahar
+
+package rfishbase
+input: species names list
+output: temperature range (preferred) + user requirements
+
+rfishbase::estimate("Boops boops") %>% select(contains("Temp"))
